@@ -15,7 +15,7 @@ The CK Plus dataset contains a collection of facial images of multiple subjects,
 
 To use transfer learning with the VGG16 model, follow these steps:
 
-1. Load the pre-trained VGG16 model using a library such as Keras or PyTorch.
+1. Load the pre-trained VGG16.
 2. Freeze the base layers of the VGG16 model to retain the pre-trained knowledge.
 3. Add a custom classification layer to the model, tailored to the CK Plus dataset.
 4. Train the model using the CK Plus dataset, fine-tuning the parameters of the added classification layer.
