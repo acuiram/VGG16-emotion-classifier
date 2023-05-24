@@ -20,3 +20,13 @@ To use transfer learning with the VGG16 model, follow these steps:
 3. Add a custom classification layer to the model, tailored to the CK Plus dataset.
 4. Train the model using the CK Plus dataset, fine-tuning the parameters of the added classification layer.
 5. Evaluate the performance of the model on the test dataset and analyze the results obtained.
+
+## Results
+
+| Epochs|    Train accuracy   | Test accuracy  |   Train time   | Test time |
+|-------|---------------------|----------------|----------------|-----------|
+| 10    | 86.88%              | 83.05%         | 143.06 s       | 5.33 s    |
+| 20    | 95.19%              | 89.49%         | 203.06 s       | 5.33 s    |
+| 30    | 96.94%              | 93.56%         | 256.66 s       | 5.33 s    |
+| 40    | 99.42%              | 95.93%         | 383.09 s       | 3.81 s    |
+| 50    | 99.71%              | 98.31%         | 443.16 s       | 5.34 s    |
